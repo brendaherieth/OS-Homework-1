@@ -1,8 +1,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-#include <cstdlib> //system functions
-
+#include <cstdlib> 
 void printmenu() {
     std::cout << "Menu options" << std::endl;
     std::cout << "Option 1: dr" << std::endl;
@@ -93,8 +92,7 @@ void homeworkprogram() {
 }
 
 int main() {
-    // insert code here...
-    //shellCommandProgram();
+    
     printmenu();
     homeworkprogram();
     return 0;
